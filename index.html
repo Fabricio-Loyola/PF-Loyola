@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" async></script>
+    <title>Productos tecnologicos | </title>
+</head>
+<body>
+    <header>
+        <h1>MI TIENDA</h1>
+    </header>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Ryzen 5 5500g</span>
+                <img src="./img/pexels-sebastiaan-stam-1097456.jpg" alt="" class="img-item">
+                <span class="precio-item">$15.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Auriculares Gaming rosa</span>
+                <img src="./img/descarga.jpg" alt="" class="img-item">
+                <span class="precio-item">$25.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Auriculares Gaming</span>
+                <img src="./img/1420-razer-blackshark-v2-x-auriculares-gaming-71-multiplataforma.webp" alt="" class="img-item">
+                <span class="precio-item">$35.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">PlayStation 5</span>
+                <img src="./img/ps5.png" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Mouse Gamer GX</span>
+                <img src="./img/mause-gamer-gx.jpg" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Iphone 14 256gb</span>
+                <img src="./img/iPhone_14_Midnight_PDP_Image_Position-1A_LAES.jpg" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Gabinete ATX</span>
+                <img src="./img/gabinete_ATX.jpg" alt="" class="img-item">
+                <span class="precio-item">$54.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Monitor ASUS</span>
+                <img src="./img/monitor.png" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">RTX 3090</span>
+                <img src="./img/81-GWj0nEkL._AC_SL1500_.jpg" alt="" class="img-item">
+                <span class="precio-item">$42.800</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                
+                
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <div id="formulario">
+        <h2>Trabaja con nosotros</h2>
+        <form id="miFormulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="inputNombre" name="nombre" placeholder="Nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="inputEmail" name="email" placeholder="Email" required>
+            
+            <label for="mensaje">Contraseña</label>
+            <input type="password" id="inputContraseña" name="password" placeholder="Contraseña" required>
+
+            <button id="boton">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

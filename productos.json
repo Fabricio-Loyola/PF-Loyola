@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "name": "Ryzen 5 5500G",
+        "price": 15000,
+        "image": "./img/pexels-sebastiaan-stam-1097456.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Auricurales gaming rosa",
+        "price": 25000,
+        "image": "./img/descarga.jpg"
+        
+    },
+    {
+        "id": 3,
+        "name": "Airicurales gaming",
+        "price": 35000,
+        "image": "./img/1420-razer-blackshark-v2-x-auriculares-gaming-71-multiplataforma.webp"
+        
+
+    },
+    {
+        "id": 4,
+        "name": "PlayStation 5",
+        "price": 18000,
+        "image": "./img/ps5.png"
+        
+
+    },
+    {
+        "id": 5,
+        "name": "Mouse gamer gx",
+        "price": 32000,
+        "image": "./img/mause-gamer-gx.jpg"
+        
+
+    },
+    {
+        "id": 6,
+        "name": "Iphone 14 256gb",
+        "price": 18000,
+        "image": "./img/iPhone_14_Midnight_PDP_Image_Position-1A_LAES.jpg"
+    
+
+    },
+    {
+        "id": 7,
+        "name": "Gabinete ATX",
+        "price": 54000,
+        "image": "./img/gabinete_ATX.jpg"
+        
+
+    },
+    {
+        "id": 8,
+        "name": "Monitor ASUS",
+        "price": 32000,
+        "image": "./img/monitor.png"
+        
+
+    },
+    {
+        "id": 9,
+        "name": "RTX 3090",
+        "price": 42800,
+        "image": "./img/81-GWj0nEkL._AC_SL1500_.jpg"
+        
+    }   ]
