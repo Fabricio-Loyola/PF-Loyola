@@ -27,7 +27,7 @@ function fetchData() {
         });
 }
 
-// Esperamos a que todos los elementos de la página carguen para ejecutar el script
+
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready);
 } else {
@@ -65,9 +65,9 @@ function mostrarProductosEnDOM() {
 
 function ready() {
     fetchData().then(data => {
-        // Actualizar el DOM con los elementos del carrito guardados
+
         console.log(data);
-        // Puedes utilizar 'data' para mostrar los productos en el DOM
+
     });
 
     // Agregamos funcionalidad a los botones eliminar del carrito
@@ -113,7 +113,7 @@ function pagarClicked() {
         icon: 'success',
         confirmButtonText: 'Aceptar'
     }).then(() => {
-        // Elimino todos los elementos del carrito
+
         const carritoItems = document.getElementsByClassName('carrito-items')[0];
         while (carritoItems.hasChildNodes()) {
             carritoItems.removeChild(carritoItems.firstChild);
@@ -269,7 +269,7 @@ function actualizarTotalCarrito() {
     for (let i = 0; i < carritoItems.length; i++) {
         const item = carritoItems[i];
         const precioElemento = item.getElementsByClassName('carrito-item-precio')[0];
-        // Quitamos el símbolo peso y el punto de milesimos.
+
         const precio = parseFloat(precioElemento.innerText.replace('$', '').replace('.', ''));
         const cantidadItem = item.getElementsByClassName('carrito-item-cantidad')[0];
         const cantidad = cantidadItem.value;
