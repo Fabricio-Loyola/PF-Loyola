@@ -1,5 +1,6 @@
 let carritoVisible = false;
 
+
 // Array de productos
 const productos = [
     { titulo: "Ryzen 5 5500g", precio: 15000, imagenSrc: "./img/pexels-sebastiaan-stam-1097456.jpg" },
